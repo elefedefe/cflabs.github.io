@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Create a web site with GitHub Pages gh-pages"
 date:   2024-07-03 15:11:33 +0100
 categories: jekyll update
 ---

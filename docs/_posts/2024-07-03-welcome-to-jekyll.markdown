@@ -6,7 +6,10 @@ categories: jekyll update
 ---
 
 How to create a repository for your site [gh-site][gh-site]: 
-1. Edit `_config.yaml`, and comment out the line `base_url`
+1. Edit `_config.yaml`, and comment out the line `baseurl`
+2. Register for a new domain `cflabs.info`
+3. Point a new `CNAME` record on your DNS provider to `elefedefe.github.io`
+4. Wait for DNS propagation. Use [DNS Propagation Checker][dns-check]
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
@@ -32,3 +35,4 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-talk]: https://talk.jekyllrb.com/
 [gh-site]:     https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-a-repository-for-your-site
+[dns-check]:   https://www.whatsmydns.net/

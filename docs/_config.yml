@@ -30,6 +30,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  elefedefe
 
 # Build settings
+logo: assets/cflabs.png
 theme: minima
 plugins:
   - jekyll-feed
